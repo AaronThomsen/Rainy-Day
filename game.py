@@ -132,7 +132,6 @@ class Game:
         self.CHAR = pygame.image.load('images/idleResize.png').convert_alpha()
         self.CHAR2 = pygame.image.load('images/idleResizeflip.png').convert_alpha()
         self.DROP = pygame.image.load('images/dropResize.png').convert_alpha()
-        self.WATER = pygame.image.load('images/waterResize.png').convert_alpha()
         self.PLATFORM = pygame.image.load('images/planeResize.png').convert_alpha()
 
         self.RUNNING_RIGHT = [pygame.image.load('images/run0.png').convert_alpha(),
